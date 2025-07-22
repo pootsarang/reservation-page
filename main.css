@@ -37,7 +37,7 @@ a{
 }
 
 .contents{
-    width: 800px;
+    width: 500px;
     margin: auto;
     background-color: rgb(255, 255, 255);
     padding-top: 20px;
@@ -48,10 +48,10 @@ a{
 }
 
 .contents-1, .contents-2, .contents-3{
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     border-radius: 8px;
     border: 1px solid #888888;
-    width: 600px;
+    width: 500px;
     height: 250px;
     margin: auto;
 }
@@ -62,4 +62,26 @@ a{
 
 .contents-p{
     padding: 20px 15px;
+}
+
+#intro:target{
+    background-color: rgb(37, 146, 165);
+    color: rgb(255, 255, 255);
+}
+#introduce:target{
+    background-color: rgb(37, 146, 165);
+    color: rgb(255, 255, 255);
+}
+#charge:target{
+    background-color: rgb(37, 146, 165);
+    color: rgb(255, 255, 255);
+}
+
+.nav li:hover{
+    background-color: aqua;
+    
+}
+
+.nav a:hover{
+    color: white;
 }

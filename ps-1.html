@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>reservation page</title>
+    <link rel="stylesheet" href="ps-1.css" />
+  </head>
+
+  <body>
+    <!-- 전체 레이아웃 -->
+    <div class="wrap">
+      <!-- 메뉴 영역 -->
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html#intro">이용 안내</a></li>
+          <li><a href="index.html#introduce">객실 소개</a></li>
+          <li><a href="index.html#charge">예약 방법 및 요금</a></li>
+          <li><a href="ps-1.html">예약하기</a></li>
+        </ul>
+      </nav>
+      <!-- 개인 정보 -->
+       <form id="signup">
+        <fieldset>
+            <legend>개인정보</legend>
+            <ul>
+                <li>
+                    <label for="fullname" class="nametel">이름</label>
+                    <input type="text" id="fullname">
+                </li>
+                <li>
+                    <label for="tel" class="nametel">연락처</label>
+                    <input type="text" id="tel">
+                </li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>객실 형태</legend>
+            <ul>
+                <li>
+                    <input type="radio" name="roomselect" id="room">
+                    <label for="room">기본형 (최대 2인)</label>
+                </li>
+                <li>
+                    <input type="radio" name="roomselect" id="family">
+                    <label for="family">가족형 (최대 4인)</label>
+                </li>
+            </ul>
+        </fieldset>
+       </form>
+    </div>
+
+  </body>
+</html>
